@@ -1,0 +1,37 @@
+<section class="features text-center section-padding" id="{{section.id}}">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="arrow" ng-bind="section.title"></h1>
+        <div class="features-wrapper">
+          <div class="col-md-12 wp2 animated fadeInUp feature" ng-repeat="exp in section.experiences">
+            <div class="row">
+              <div class="col-sm-4 col-md-3">
+                <div class="icon">
+                  <i class="{{exp.company.icon}}"></i>
+                </div>
+              </div>
+              <div class="col-sm-8 col-md-9 text-left">
+                <h1>
+                  {{exp.company.name}} <small>{{exp.company.location}}</small>
+                </h1>
+                <h3>
+                  {{exp.position}} <span class="badge">{{exp.when}}</span>
+                </h3>
+                <p></p>
+                <ul>
+                  <li ng-repeat="entry in exp.entries">{{entry.entry}}
+                    <ul ng-if="entry.entries">
+                      <li ng-repeat="e in entry.entries">{{e}}</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

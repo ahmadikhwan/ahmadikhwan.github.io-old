@@ -1,0 +1,209 @@
+{
+  "sections":[
+    {
+      "templateUrl":"app/portfolio/html/header.html",
+      "hide":false,
+      "id":"home",
+      "label":"Home",
+      "nav":false,
+      "title":"AHMAD IKHWAN",
+      "subtitle":"JUSOH",
+      "description":"",
+      "links":[
+        {
+          "name":"Github Repo",
+          "url":"https://github.com/ahmadikhwan",
+          "icon":"fa fa-github"
+        }
+      ]
+    },
+    {
+      "templateUrl":"app/portfolio/html/experience.html",
+      "hide":false,
+      "id":"experience",
+      "title":"Experience",
+      "experiences":[
+        {
+          "company":{
+            "name":"Top IT Industries Sdn Bhd",
+            "description":"Top IT is an established organization that is Terengganu's answer to the fast-moving tech sector. The company specialized in restoring IT equipments, managing online database system and producing multimedia applications.",
+            "location":"K.Terengganu, Terengganu",
+            "icon":"fa fa-laptop shadow"
+          },
+          "position":"Intern",
+          "when":"July - Sep 2014",
+          "entries":[
+            {
+              "entry":"Fixed and restored faulty netbooks. Common issues were like corrupted operating system, faulty keyboard, faulty motherboard and various other software and hardware problems."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "templateUrl":"app/portfolio/html/experience.html",
+      "hide":false,
+      "id":"training",
+      "title":"Training",
+      "experiences":[
+        {
+          "company":{
+            "name":"Dream Catcher Software Hackathon Job Camp",
+            "description":"",
+            "location":"Cyberjaya, KL",
+            "icon":"fa fa-code shadow"
+          },
+          "when":"July, 2015",
+          "entries":[
+            {
+              "entry":"Learned how to develop web and mobile application. Modules taught are HTML5, CSS, JavaScript, and various frameworks such as jQuery, Bootstrap and Ionic."
+            },
+            {
+              "entry":"Competed in Software Hackathon against 32 other teams in developing an app within 24-hour. Things I had learned from participating in the competition:",
+              "entries":[
+                "Experienced first-hand the stages in software development where we have to plan, develop, test, and deploy our application.",
+                "Learned how to generate an idea and developed the idea.",
+                "Learned how to solve big complex problem by breaking it down to smaller problems.",
+                "Learned how to work in a team and delegate tasks effectively in order to meet the objective within the time constraint and competition rules."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "templateUrl":"app/portfolio/html/experience.html",
+      "hide":false,
+      "id":"education",
+      "title":"Education",
+      "experiences":[
+        {
+          "company":{
+            "name":"Bachelor of Engineering (Honours) Electronics (Computer)",
+            "description":"",
+            "location":"2011-2015",
+            "icon":"fa fa-graduation-cap shadow"
+          },
+          "position":"Universiti Teknologi MARA",
+          "when":"Shah Alam, Selangor"
+        },
+        {
+          "company":{
+            "name":"Foundation of Engineering",
+            "description":"",
+            "location":"2010-2011",
+            "icon":"fa fa-university shadow"
+          },
+          "position":"Universiti Teknologi MARA",
+          "when":"Puncak Alam, Selangor"
+        }
+      ]
+    },
+    {
+      "templateUrl":"app/portfolio/html/features.html",
+      "hide":false,
+      "id":"awards",
+      "title":"Awards & Achievements",
+      "entries":[
+        {
+          "name":"Dean's List",
+          "description":"Semester 8",
+          "when":"2015",
+          "icon":"fa fa-graduation-cap shadow"
+        },
+        {
+          "name":"Dean's List",
+          "description":"Semester 6",
+          "when":"2014",
+          "icon":"fa fa-graduation-cap shadow"
+        },
+        {
+          "name":"2nd Place in Basketball",
+          "description":"SUKOL UiTM",
+          "when":"2013",
+          "icon":"fa fa-star-o shadow"
+        }
+      ]
+    },
+    {
+      "templateUrl":"app/portfolio/html/portfolio.html",
+      "hide":false,
+      "id":"projects",
+      "title":"Projects",
+      "projects":[
+        {
+          "name":"Travel Scheduler",
+          "img":{
+            "src":"themes/halcyondays/img/portfolio-01.jpg"
+          },
+          "description":"A web application where the user can choose multiple desired places for a vacation and for how long. Based on the information, it calculates the distance between all of those places, time taken to reach every place, and how long the user can spend on each specific place. It will generate a time schedule to make it easy for the user to manage and plan the trip.",
+          "keywords":[
+            "Google Maps API",
+            "jQuery",
+            "Bootstrap"
+          ],
+          "when":"July, 2015"
+        },
+        {
+          "name":"Forward Scattering Radar (FSR) Target Signal Processing using Wavelet Technique",
+          "img":{
+            "src":"themes/halcyondays/img/portfolio-02.jpg"
+          },
+          "description":" The project looks into Wavelet Technique to extract detailed information on the target signals, in this case vehicles on the road. Research using the data collected by the radar, processing the signals obtained using two different wavelet technique(Haar and Meyer) by programming with MATLAB to extract unique values for multiple sample signals,then represents the signals in PSD spectrum and comparing the effectiveness between both wavelet techniques. The result is Haar wavelet technique is more suitable for vehicle signal representation because it is easier to read and simpler compared to more complex result by using Meyer wavelet technique.",
+          "keywords":[
+            "FSR Data",
+            "Matlab"
+          ],
+          "when":"March - June, 2015"
+        },
+        {
+          "name":"Bluetooth Security Door Lock using Arduino",
+          "img":{
+            "src":"themes/halcyondays/img/portfolio-01.jpg"
+          },
+          "description":"Created a program to be run in Arduino microcontroller. The program integrates an Android phone with the Bluetooth module connected to Arduino, and uses it as a password receiver to unlock the door lock wirelessly.",
+          "keywords":[
+            "Arduino",
+            "Objective-C"
+          ],
+          "when":"June, 2014"
+        }
+      ]
+    },
+    {
+      "templateUrl":"app/portfolio/html/contact.html",
+      "hide":false,
+      "id":"contact",
+      "title":"Contact",
+      "address":{
+        "location":"K.Terengganu, Terengganu.",
+        "remark":"Okay to relocate"
+      },
+      "phone":{
+        "mobile":"Upon request"
+      },
+      "email":"ahmadikhwan258@gmail.com",
+      "socials":[
+        {
+          "href":"",
+          "icon":"fa fa-facebook"
+        },
+        {
+          "href":"",
+          "icon":"fa fa-twitter"
+        },
+        {
+          "href":"mailto:ahmadikhwan258@gmail.com",
+          "icon":"fa fa-envelope"
+        }
+      ]
+    },
+    {
+      "templateUrl":"app/portfolio/html/footer.html",
+      "copyright":"2015 (c) Ahmad Ikhwan",
+      "credit":"",
+      "id":"footer",
+      "navHide":true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+<section class="swag text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1>
+          {{section.title}} <span>{{section.subtitle}}</span>
+        </h1>
+        <a href="#portfolio" class="down-arrow-btn"><i class="fa fa-chevron-down"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="portfolio text-center section-padding" id="{{section.id}}">
+  <div class="container">
+    <div class="row">
+      <div id="portfolioSlider">
+        <ul class="slides">
+          <li>
+            <div class="col-md-4 wp4 animated fadeInDown" ng-repeat="project in section.projects">
+              <div class="overlay-effect effects clearfix">
+                <div class="img">
+                  <img ng-src="{{project.img.src}}" alt="{{project.img.alt}}">
+                  <div class="overlay">
+                    <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a> <a class="close-overlay hidden">x</a>
+                  </div>
+                </div>
+              </div>
+              <h2>
+                {{project.name}} <span class="badge">{{project.when}}</span>
+              </h2>
+              <p>{{project.description}}</p>
+              <ul class="list-inline">
+                <li ng-repeat="keyword in project.keywords"><span class="label label-info">{{keyword}}</span></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
