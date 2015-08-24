@@ -34,7 +34,6 @@
         }
         return;
       }
-      console.log('getting ' + args.key + '...');
       var paths = args.paths;
       if (paths) {
         var url = '';
@@ -62,7 +61,6 @@
           }
         }
         if (url.length > 0) {
-          console.log(url);
           var index = args.index;
           var key = args.key;
           this._dataService.get(url).then(function(data) {
@@ -87,7 +85,6 @@
 
   ModelController.prototype._watch = function(key, fn) {
     if (typeof fn !== 'undefined') {
-      console.log('waiting for ' + key + '...');
       if (typeof this._watchers[key] === 'undefined') {
         this._watchers[key] = [];
       }
@@ -95,7 +92,6 @@
     } else {
       var fns = this._watchers[key];
       if (fns instanceof Array) {
-        console.log('got ' + key + '!');
         for ( var i in fns) {
           fns[i].call();
         }
@@ -104,21 +100,14 @@
   };
 
   ModelController.prototype.exec = function(key, args) {
-    console.log('exec ' + key);
-    console.log('args ' + args);
     if (typeof this[key] === 'function') {
       this[key].call(key, args);
     } else if (typeof this[key] === 'undefined') {
       this._watch(key, (function() {
-        console.log('exec 2 ' + key);
         this.exec(key, args);
       }).bind(this));
     } else {
-      console.log(typeof this[key]);
-      console.log(this[key]);
-      console.log('args ' + args);
       var fn = eval('this.' + key + "=" + this[key]);
-      console.log(fn);
       if (typeof fn === 'function') {
         fn.call(this, args);
       }
