@@ -1,10 +1,48 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>index</title>
-</head>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with Github Pages</p>
-</body>
-</html>
+<html lang="en" ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ahmad Ikhwan Bin Jusoh</title>
+    <!-- <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'> -->
+    <link href="css/fonts.css" rel="stylesheet" >
+    <link href="themes/halcyondays/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="themes/halcyondays/css/flexslider.css" rel="stylesheet" >
+    <link href="themes/halcyondays/css/styles.css" rel="stylesheet">
+    <link href="themes/halcyondays/css/queries.css" rel="stylesheet">
+    <link href="themes/halcyondays/css/animate.css" rel="stylesheet">
+    <link href="css/override.css" rel="stylesheet">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+      </head>
+      <body id="top">
+        <div ng-view=""></div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="themes/halcyondays/js/waypoints.min.js"></script>
+        <script src="themes/halcyondays/js/bootstrap.min.js"></script>
+        <!-- <script src="themes/halcyondays/js/scripts.js"></script> -->
+        <script src="themes/halcyondays/js/jquery.flexslider.js"></script>
+        <script src="themes/halcyondays/js/modernizr.js"></script>
+        <!-- app -->
+        <script src="app/angular-1.4.4/angular.min.js"></script>
+        <script src="app/angular-1.4.4/angular-route.min.js"></script>
+        <script src="app/components/directives.js"></script>
+        <script src="app/components/angular-scroll.min.js"></script>
+        <script src="app/data/data.module.js"></script>
+        <script src="app/data/data.service.js"></script>
+        <script src="app/model/model.module.js"></script>
+        <script src="app/model/model.controller.js"></script>
+        <script src="app/portfolio/app.js"></script>
+        <script src="app/portfolio/app.routes.js"></script>
+      </body>
+    </html>

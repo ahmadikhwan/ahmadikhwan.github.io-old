@@ -1,0 +1,11 @@
+.features-wrapper > .feature::after {
+    border: 2px solid #3dc9b3;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    width: 125px;
+}
+.features-wrapper > .feature:last-child:after
+{
+    display: none;
+}
