@@ -6,7 +6,7 @@
           <nav class="pull">
             <ul class="top-nav">
               <li ng-repeat="nav in ctrl.sections" ng-hide="nav.hide === true || nav.navHide === true">
-                <a ng-href="##{{nav.id}}">{{nav.label||nav.title}} {{nav.navHide}}
+                <a ng-href="#{{nav.id}}" du-smooth-scroll>{{nav.label||nav.title}} {{nav.navHide}}
                   <span class="indicator"><i class="fa fa-angle-right"></i></span>
                 </a>
               </li>

@@ -41,6 +41,10 @@
       ]
     },
     {
+      "templateUrl":"app/portfolio/html/separator.html",
+      "navHide":true
+    },
+    {
       "templateUrl":"app/portfolio/html/experience.html",
       "hide":false,
       "id":"training",
@@ -72,6 +76,10 @@
       ]
     },
     {
+      "templateUrl":"app/portfolio/html/separator.html",
+      "navHide":true
+    },
+    {
       "templateUrl":"app/portfolio/html/experience.html",
       "hide":false,
       "id":"education",
@@ -98,6 +106,10 @@
           "when":"Puncak Alam, Selangor"
         }
       ]
+    },
+    {
+      "templateUrl":"app/portfolio/html/separator.html",
+      "navHide":true
     },
     {
       "templateUrl":"app/portfolio/html/features.html",
