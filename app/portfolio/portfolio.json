@@ -9,6 +9,68 @@
       "title":"AHMAD IKHWAN",
       "subtitle":"JUSOH",
       "description":"",
+      "keywords":[
+        {
+          "value":"JavaScript",
+          "class":"label label-success"
+        },
+        {
+          "value":"C",
+          "class":"label label-success"
+        },
+        {
+          "value":"C++",
+          "class":"label label-success"
+        },
+        {
+          "value":"Java",
+          "class":"label label-success"
+        },
+        {
+          "value":"Ruby on Rails",
+          "class":"label label-success"
+        },
+        {
+          "value":"HTML5",
+          "class":"label label-success"
+        },
+        {
+          "value":"CSS",
+          "class":"label label-success"
+        },
+        {
+          "value":"Assembly (68k)",
+          "class":"label label-success"
+        },
+        {
+          "value":"jQuery",
+          "class":"label label-info"
+        },
+        {
+          "value":"Bootstrap",
+          "class":"label label-info"
+        },
+        {
+          "value":"Ionic",
+          "class":"label label-info"
+        },
+        {
+          "value":"Web",
+          "class":"label label-danger"
+        },
+        {
+          "value":"Android",
+          "class":"label label-danger"
+        },
+        {
+          "value":"Arduino",
+          "class":"label label-danger"
+        },
+        {
+          "value":"Matlab",
+          "class":"label label-warning"
+        }
+      ],
       "links":[
         {
           "name":"Github Repo",
