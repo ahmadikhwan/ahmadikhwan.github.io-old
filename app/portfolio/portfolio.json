@@ -307,7 +307,7 @@
       "id":"contact",
       "title":"Contact",
       "address":{
-        "location":"K.Terengganu, Terengganu.",
+        "location":"Shah Alam, Selangor",
         "remark":"Okay to relocate"
       },
       "phone":{
@@ -316,12 +316,12 @@
       "email":"ahmadikhwan258@gmail.com",
       "socials":[
         {
-          "href":"",
+          "href":"https://www.facebook.com/ikki.ahmad",
           "icon":"fa fa-facebook"
         },
         {
-          "href":"",
-          "icon":"fa fa-twitter"
+          "href":"https://www.linkedin.com/in/ahmad-ikhwan-jusoh-6b008b104",
+          "icon":"fa fa-linkedin"
         },
         {
           "href":"mailto:ahmadikhwan258@gmail.com",
