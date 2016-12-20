@@ -99,6 +99,30 @@
               "entry":"Fixed and restored faulty netbooks. Common issues were like corrupted operating system, faulty keyboard, faulty motherboard and various other software and hardware problems."
             }
           ]
+        },
+        {
+          "company":{
+            "name":"Capital Dynamics Sdn Bhd",
+            "description":"Capital Dynamics is an independent fund management and investment advisory firm, without any ties to banks, insurers, stockbroking houses or political organisations.",
+            "location":"Jalan H.S Lee, Kuala Lumpur",
+            "icon":"fa fa-briefcase shadow"
+          },
+          "position":"System Analyst",
+          "when":"Oct 2015 - March 2016",
+          "entries":[
+            {
+              "entry":"Developing and maintaining Global Websites and web-based applications for in-house use."
+            },
+            {
+              "entry":"In charge of front-end development using HTML5, Python, CSS3 and JavaScript."
+            },
+            {
+              "entry":"Providing IT Support to customers who access our websites."
+            },
+            {
+              "entry":"Maintaining and updating the company’s web-based applications, SDB3 and CMS3."
+            }
+          ]
         }
       ]
     },
