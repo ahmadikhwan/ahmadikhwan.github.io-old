@@ -93,7 +93,7 @@
             "icon":"fa fa-laptop shadow"
           },
           "position":"Intern",
-          "when":"July - Sep 2014",
+          "when":"July - September 2014",
           "entries":[
             {
               "entry":"Fixed and restored faulty netbooks. Common issues were like corrupted operating system, faulty keyboard, faulty motherboard and various other software and hardware problems."
@@ -108,7 +108,7 @@
             "icon":"fa fa-briefcase shadow"
           },
           "position":"System Analyst",
-          "when":"Oct 2015 - March 2016",
+          "when":"October 2015 - March 2016",
           "entries":[
             {
               "entry":"Developing and maintaining Global Websites and web-based applications for in-house use."
@@ -154,6 +154,27 @@
             },
             {
               "entry":"Carry out project roll out and installation."
+            }
+          ]
+        },
+        {
+          "company":{
+            "name":"CSE-EIS (M) Sdn Bhd",
+            "description":"CSE-EIS (Malaysia) Sdn. Bhd. is a wholly owned company of CSE Global (Asia) Limited (CSE). CSE is a leading systems integrator with an international presence of 38 offices spanning North America, Asia, Europe and the Middle East. The Group employs over 1,500 people wordlwide, with over 85 percent representing its design, engineering and project management capability and experience. That makes CSE one of the largest independent systems integrators of its kind.",
+            "location":"Bukit Jelutong, Selangor",
+            "icon":"fa fa-terminal shadow"
+          },
+          "position":"Software Engineer",
+          "when":"November 2016 - Present",
+          "entries":[
+            {
+              "entry":"In charge of LIMS (Laboratory Information Management System) for client companies. A heavily Java based software, with SQL/Oracle server."
+            },
+            {
+              "entry":"Install and configure the software."
+            },
+            {
+              "entry":"Develop web pages and reporting system for the software."
             }
           ]
         }
