@@ -123,6 +123,39 @@
               "entry":"Maintaining and updating the company’s web-based applications, SDB3 and CMS3."
             }
           ]
+        },
+        {
+          "company":{
+            "name":"CTC Global Sdn Bhd",
+            "description":"CTC Global Sdn Bhd (CTC Malaysia) is a wholly owned subsidiary of ITOCHU Techno-Solutions Corporation (CTC) and ITOCHU Corporation. In Malaysia, the CTC Malaysia team has been serving enterprise customers from major commercial and government sectors for over 40 years. Powered by a team of 600 qualified and experienced IT professionals, CTC Malaysia supports its customers through a country-wide network of 23 service centres and delivers its extensive portfolio of systems integration solutions to enable businesses to operate more efficiently.",
+            "location":"Dataran Hamodal, Petaling Jaya",
+            "icon":"fa fa-gears shadow"
+          },
+          "position":"Technical Support Engineer",
+          "when":"April 2016 - October 2016",
+          "entries":[
+            {
+              "entry":"Provide on-site support for desktop hardware, desktop applications, emails, printer and network related issues."
+            },
+            {
+              "entry":"Install, uninstall, configure and support MS Windows OS, MS Windows applications and other user’s applications."
+            },
+            {
+              "entry":"Perform on-site fix problem, troubleshooting and resolution."
+            },
+            {
+              "entry":"Perform hardware and software moves, adds and changes."
+            },
+            {
+              "entry":"Perform preventative maintenance."
+            },
+            {
+              "entry":"Invoke problem escalation process to next level of support."
+            },
+            {
+              "entry":"Carry out project roll out and installation."
+            }
+          ]
         }
       ]
     },
