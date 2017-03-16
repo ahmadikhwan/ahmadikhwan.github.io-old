@@ -319,6 +319,19 @@
             "Objective-C"
           ],
           "when":"June, 2014"
+        },
+        {
+          "name":"JavaScript Rock Paper Scissors game",
+          "img":{
+            "src":"themes/halcyondays/img/portfolio-01.jpg"
+          },
+          "description":"Created a JavaScript program to run a rock paper scissors game in your browser. Stored in Amazon Web Services (AWS)":[
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "AWS"
+          ],
+          "when":"March, 2017"
         }
       ]
     },
