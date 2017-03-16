@@ -301,7 +301,7 @@
           "img":{
             "src":"themes/halcyondays/img/portfolio-02.jpg"
           },
-          "description":" The project looks into Wavelet Technique to extract detailed information on the target signals, in this case vehicles on the road. Research using the data collected by the radar, processing the signals obtained using two different wavelet technique(Haar and Meyer) by programming with MATLAB to extract unique values for multiple sample signals,then represents the signals in PSD spectrum and comparing the effectiveness between both wavelet techniques. The result is Haar wavelet technique is more suitable for vehicle signal representation because it is easier to read and simpler compared to more complex result by using Meyer wavelet technique.",
+          "description":" The project looks into Wavelet Technique to extract detailed information on the target signals, in this case vehicles on the road. Research using the data collected by the radar, processing the signals obtained using two different wavelet technique(Haar and Meyer) by programming with MATLAB to extract unique values for multiple sample signals,then represents the signals in PSD spectrum and comparing the effectiveness between both wavelet techniques.",
           "keywords":[
             "FSR Data",
             "Matlab"
@@ -325,7 +325,8 @@
           "img":{
             "src":"themes/halcyondays/img/portfolio-01.jpg"
           },
-          "description":"Created a JavaScript program to run a rock paper scissors game in your browser. Stored in Amazon Web Services (AWS)":[
+          "description":"Created a JavaScript program to run a rock paper scissors game in your browser. Stored in Amazon Web Services (AWS).",
+          "keywords":[
             "JavaScript",
             "HTML",
             "CSS",
