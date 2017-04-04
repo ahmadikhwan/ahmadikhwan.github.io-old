@@ -366,7 +366,7 @@
     },
     {
       "templateUrl":"app/portfolio/html/footer.html",
-      "copyright":"2015 (c) Ahmad Ikhwan",
+      "copyright":"2017 (c) Ahmad Ikhwan",
       "credit":"",
       "id":"footer",
       "navHide":true
