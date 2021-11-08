@@ -165,7 +165,7 @@
             "icon":"fa fa-terminal shadow"
           },
           "position":"Software Engineer",
-          "when":"November 2016 - Present",
+          "when":"November 2016 - July 2017",
           "entries":[
             {
               "entry":"In charge of LIMS (Laboratory Information Management System) for client companies. A heavily Java based software, with SQL/Oracle server."
@@ -175,6 +175,48 @@
             },
             {
               "entry":"Develop web pages and reporting system for the software."
+            }
+          ]
+        }
+        {
+          "company":{
+            "name":"Quantum Automation Pte Ltd",
+            "description":"QA(Asia) is one of the leading manufacturer in Singapore for building automation products. We have highly trained hardware engineers as well as embedded programmers not to mention our experienced high level software engineers. Our core business is manufacturing of smart DDC controllers and other supplementary products for Smart Building Control Systems. We are a technology intensive company geared to deliver state-of-the-art solutions in areas of integrated smart building systems , system applications, product development, Internet/Intranet applications and IoT (Internet of things) solutions.",
+            "location":"Singapore",
+            "icon":"fa fa-terminal shadow"
+          },
+          "position":"Service Engineer",
+          "when":"August 2017 - August 2020",
+          "entries":[
+            {
+              "entry":"Perform preventative maintenance to make sure the system is running efficiently and resolving any issues complaint by the users in various sites such as SBST Gali Batu Depot, Waterway Point, Jurong Town Hall and Medtech Hub."
+            },
+            {
+              "entry":"Covers right from controller installation and replacement, cable termination from the controller to the field devices, programming and communication protocol configuration and link to HMI."
+            },
+            {
+              "entry":"Execute additional and alteration projects such as adding new exhaust fan or new fan coil unit (FCU), from creating IO list, terminating cable on site, to program and configuring the controller and SCADA."
+            }
+          ]
+        }
+        {
+          "company":{
+            "name":"Macro Integration Sdn Bhd",
+            "description":"The company act as system integrator and specialize in design, install and maintain controls instrumentation. Using PLC and DDC from brands such as Schneider, Siemens and Rockwell, the company offer total industrial automation of facilities and process.",
+            "location":"Setia Tropika, Johor",
+            "icon":"fa fa-terminal shadow"
+          },
+          "position":"Automation Engineer",
+          "when":"August 2020 - Present",
+          "entries":[
+            {
+              "entry":"Maintain various sites such as Seagate, Dyson and Samtec to make sure minimal downtime on their Building Management System, performing scheduled preventative maintenance and troubleshooting hardware and software issues."
+            },
+            {
+              "entry":"In charge of doing the PLC programming logic changes according to the clients need."
+            },
+            {
+              "entry":"Configuring and manage SCADA database using SQL queries, modifying SCADA and PLC logic with Object Oriented Programming Language and also Ladder Programming."
             }
           ]
         }
@@ -342,8 +384,7 @@
       "id":"contact",
       "title":"Contact",
       "address":{
-        "location":"Shah Alam, Selangor",
-        "remark":"Okay to relocate"
+        "location":"Johor Bahru, Johor"
       },
       "phone":{
         "mobile":"Upon request"
@@ -355,7 +396,7 @@
           "icon":"fa fa-github"
         },
         {
-          "href":"https://www.linkedin.com/in/ahmad-ikhwan-jusoh-6b008b104",
+          "href":"https://www.linkedin.com/in/ahmadikhwannn",
           "icon":"fa fa-linkedin"
         },
         {
@@ -366,7 +407,7 @@
     },
     {
       "templateUrl":"app/portfolio/html/footer.html",
-      "copyright":"2017 (c) Ahmad Ikhwan",
+      "copyright":"2021 (c) Ahmad Ikhwan",
       "credit":"",
       "id":"footer",
       "navHide":true
